@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-const PORT = 3030 || process.env.PORT();
+const PORT = 3000 || process.env.PORT();
 
 
 // Initialize Mongoose

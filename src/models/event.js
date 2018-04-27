@@ -25,5 +25,5 @@ module.exports.getEvents = function(callback, limit) {
 };
 
 module.exports.addEvent = function(callback, limit) {
-	Event.find(callback).;
+	Event.find(callback);
 };
