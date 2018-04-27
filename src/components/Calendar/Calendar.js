@@ -13,7 +13,7 @@ class Calendar extends React.Component {
         };
 
         componentDidMount() {
-        		const calendar = $('.calendar-component').fullCalendar({
+        		$('.calendar-component').fullCalendar({
         			schedulerLicenseKey: 'CC-Attribution-NonCommercial-NoDerivatives',
         			defaultView: "month",
         			dayClick: function(date, jsEvent, view) {
