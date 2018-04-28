@@ -24,7 +24,13 @@ class Calendar extends React.Component {
                         modal.style.display = "block";
                     }
                     $(this).css('background-color', 'red');
-                }
+                },
+                header: {
+                    left: 'prev,next today',
+                    center: 'title',
+                    right: 'month,agendaWeek,agendaDay,listMonth'
+                },
+                eventLimit: true, // allow "more" link when too many events
             });
 
 
